@@ -1,0 +1,254 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+.container {
+    display: flex;
+    padding: 1rem 6rem;
+    margin-top: 5rem;
+    flex-wrap: wrap;
+}
+
+.left-content {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.left-content h2 {
+    font-size: 2rem;
+}
+
+.left-content p {
+    font-size: 1.2rem;
+}
+
+.right-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.row {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    position: relative;
+    background-color: #f9f9f9;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(53, 53, 53, 0.1);
+    flex: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    min-height: 300px; 
+    transition: background-color 0.3s ease, color 0.3s ease;
+    min-width: 250px;
+}
+
+.card img.card-icon {
+    position: absolute;
+    top: 20px;
+    width: 50px;
+    height: 50px;
+    transition: all 0.3s ease;
+}
+
+.card:hover img.card-icon {
+    position: static;
+    margin: 0 auto 10px;
+}
+
+h2 {
+    font-size: 24px;
+    margin: 0 0 10px;
+    color: #333;
+}
+
+h3 {
+    font-size: 18px;
+    margin: 0;
+    color: #333;
+}
+
+p {
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+}
+
+.high-quality {
+    margin-top: 0;
+}
+
+.agile {
+    margin-top: -50px;
+    margin-bottom: 70px;
+}
+
+.full-stack {
+    margin-top: 20px;
+   
+}
+
+.quality-assured {
+    margin-top: -60px;
+    margin-bottom: 70px;
+}
+
+
+.high-quality:hover {
+    background-color: rgb(250, 106, 81);
+}
+
+.high-quality:hover h3, .high-quality:hover p,
+.agile:hover h3, .agile:hover p,
+.full-stack:hover h3, .full-stack:hover p,
+.quality-assured:hover h3, .quality-assured:hover p {
+    color: #fff;
+}
+
+.agile:hover {
+    background-color: rgb(218, 190, 28);
+}
+
+.full-stack:hover {
+    background-color: rgb(114, 243, 255);
+}
+
+.quality-assured:hover {
+    background-color: rgb(34, 61, 237);
+}
+
+.line-container {
+    display: flex;
+    align-items: center;
+}
+
+.line-container p {
+    color: rgba(0, 47, 255, 0.753);
+  font-size: 1rem;
+}
+#line-one {
+    display: inline-block;
+    width: 15px;
+    height: 4px;
+    background-color: tomato;
+    margin-right: 5px;
+}
+
+#line-two {
+    display: inline-block;
+    width: 45px;
+    height: 4px;
+    background-color: tomato;
+    margin-right: 10px;
+}
+
+.left-content > p {
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        padding: 1rem;
+        align-items: center;
+    }
+
+    .left-content, .right-content {
+        padding: 0;
+        width: 100%;
+    }
+
+    .row {
+        flex-direction: column;
+        width: 100%;
+        gap: 20px;
+
+    }
+
+    .card {
+        height: auto;
+        min-height: 250px; 
+        min-width: 100%;
+        padding: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .left-content p {
+        font-size: 1rem;
+    }
+    .line-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 500px) {
+    .container {
+        padding: 1rem;
+    }
+
+    .left-content, .right-content {
+        width: 100%;
+        padding: 1rem 0rem;
+    }
+
+    .row {
+        flex-direction: column;
+        gap: 10rem;
+        min-height: 40rem;
+        width: 100%;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    .left-content p, .right-content p {
+        font-size: 0.9rem;
+    }
+
+    .card {
+        padding: 3rem 0;
+        min-width: 100%;
+        min-height: 200px; 
+        text-align: center;
+        gap: 8px;
+        
+    }
+
+    .card img.card-icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+
+    p {
+        font-size: 0.9rem;
+    }
+}
+.row .card:hover img {
+    filter: brightness(0) invert(1); 
+}

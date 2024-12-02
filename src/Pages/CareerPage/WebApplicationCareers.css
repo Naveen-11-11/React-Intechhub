@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.careers-web-container {
+  padding: 0rem 0;
+  background-color: #fff;
+}
+
+#colorlogo {
+  width: 160px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.careers-web-header {
+  display: flex;
+  justify-content: space-around;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-color: #fff;
+  padding: 1rem 0;
+
+}
+
+.careers-web-contact ul {
+  display: flex;
+  gap: 6rem;
+}
+
+ul li {
+  list-style-type: none;
+  margin-top: 0.5rem;
+
+}
+
+.careers-web-address,
+.careers-web-email,
+.careers-web-ph {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.careers-web-contact p {
+  font-size: 14px;
+  color: black;
+}
+
+.careers-web-contact li {
+  font-size: 12px;
+}
+
+.careers-web-nav-container {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.careers-web-app-hero-section-1 {
+  background-image: url('../../assets/WebAppBG.png');
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.careers-web-app-overlay-1 {
+  /* background-color: rgba(90, 127, 237, 0.5); */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.careers-web-app-content-1 {
+  color: white;
+  text-align: center;
+}
+
+.careers-web-app-content-1 h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+}
+
+.careers-web-app-content-1 p {
+  color: white;
+}
+
+
+
+.careers-web-app-contain {
+  margin-top: 8rem;
+  display: flex;
+  padding-left: 10rem;
+
+}
+
+.careers-web-app-img {
+  width: 350px;
+  height: 500px;
+}
+
+.careers-web-app-contents {
+  padding: 2rem 0 0 5rem;
+}
+
+.careers-web-app-contents p {
+  padding-bottom: 2rem;
+  font-size: 0.9rem;
+  color: black;
+}
+
+.careers-web-app-contents i {
+  padding-right: 1rem;
+}
+
+.careers-web-app-contents p a {
+  text-decoration: none;
+  color: #0853e9;
+}
+
+
+
+
+.careers-web-app-development {
+  padding-left: 12rem;
+  cursor: pointer;
+  max-width: 1000px;
+
+}
+
+.careers-web-app-development h1 {
+  color: black;
+}
+.careers-web-app-development-contents{
+  margin: 2rem 0rem;
+  border: 1px solid #ddd;
+}
+
+
+
+@media (max-width: 768px) {
+  .careers-web-header {
+    display: none;
+  }
+
+  .careers-web-app-hero-section-1 {
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .careers-web-app-content-1 h1 {
+    font-size: 2rem;
+  }
+
+  .careers-web-app-content-1 p {
+    font-size: 0.9rem;
+  }
+
+  .careers-web-app-contain {
+    margin-top: 2rem;
+    padding: 0;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .careers-web-app-img img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .careers-web-app-contents {
+    padding: 1rem;
+    margin-bottom: 4rem;
+  }
+
+  .careers-web-app-contents p {
+    font-size: 0.8rem;
+    padding-bottom: 1rem;
+  }
+
+  .careers-web-app-development {
+    padding: 0 1rem;
+    margin-bottom: 4rem;
+  }
+
+  .careers-web-app-development h1 {
+    font-size: 1.5rem;
+    text-align: left;
+  }
+
+  .careers-web-app-development p {
+    font-size: 0.9rem;
+    padding: 0.8rem;
+  }
+
+  .careers-web-app-development-contents {
+    margin: 1rem 0;
+  }
+}

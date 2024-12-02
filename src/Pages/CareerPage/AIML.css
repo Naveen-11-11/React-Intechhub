@@ -1,0 +1,232 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.AIML-container {
+    padding: 0rem 0;
+    background-color: #fff;
+}
+
+#colorlogo {
+    width: 160px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.AIML-header {
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: #fff;
+    padding: 1rem 0;
+
+}
+
+.AIML-contact ul {
+    display: flex;
+    gap: 6rem;
+}
+
+ul li {
+    list-style-type: none;
+    margin-top: 0.5rem;
+
+}
+
+.AIML-address,
+.AIML-email,
+.AIML-ph {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.AIML-contact p {
+    font-size: 14px;
+    color: black;
+}
+
+.AIML-contact li {
+    font-size: 12px;
+}
+.AIML-nav-container {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+
+
+
+
+
+.AIML-hero-section-1 {
+    background-image: url('../../assets/AIMLBG.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.AIML-overlay-1 {
+    background-color: rgba(90, 127, 237, 0.5);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.AIML-content-1 {
+    color: white;
+    text-align: center;
+}
+
+.AIML-content-1 h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+}
+
+.AIML-content-1 p {
+    color: white;
+}
+
+
+
+
+
+
+
+.AIML-contain {
+    margin-top: 8rem;
+    display: flex;
+    padding-left: 10rem;
+    
+}
+
+.AIML-img  {
+    width: 350px;
+    height:450px;
+}
+
+.AIML-contents {
+    padding: 2rem 0 0 5rem;
+}
+
+.AIML-contents p {
+    padding-bottom: 2rem;
+    font-size: 0.9rem;
+    color: black;
+}
+
+.AIML-contents i {
+    padding-right: 1rem;
+}
+
+.AIML-contents p a {
+    text-decoration: none;
+    color: #0853e9;
+}
+
+
+
+
+
+
+
+.AIML-development{
+    padding-left:12rem;
+    cursor: pointer;
+    margin-bottom: 5rem;
+    
+  }
+  .AIML-development h1{
+    color: black;
+  }
+  .AIML-development p{
+    padding: 1rem;
+    border: 1px solid #ddd;
+    max-width:1000px;
+    background-color: #f9f9f9;
+    color: black;
+    font-size: 1rem;
+  }
+  .AIML-development-contents{
+    margin: 2rem 0rem;
+  }
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .AIML-header {
+      display: none;
+    }
+  
+    .AIML-hero-section-1 {
+      height: 30vh;
+      background-size: cover;
+      background-position: center;
+    }
+  
+    .AIML-content-1 h1 {
+      font-size: 2rem;
+    }
+  
+    .AIML-content-1 p {
+      font-size: 0.9rem;
+    }
+  
+    .AIML-contain {
+      margin-top: 2rem;
+      padding: 0;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .AIML-img img {
+      max-width: 100%;
+      height: auto;
+    }
+  
+    .AIML-contents {
+      padding: 1rem;
+      margin-bottom: 4rem;
+    }
+  
+    .AIML-contents p {
+      font-size: 0.8rem;
+      padding-bottom: 1rem;
+    }
+  
+    .AIML-development {
+      padding: 0 1rem;
+      margin-bottom: 4rem;
+    }
+  
+    .AIML-development h1 {
+      font-size: 1.5rem;
+      text-align: left;
+    }
+
+    .AIML-development p {
+      font-size: 0.9rem;
+      padding: 0.8rem;
+    }
+  
+    .AIML-development-contents {
+      margin: 1rem 0;
+    }
+  }

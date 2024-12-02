@@ -1,0 +1,482 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.desk-container {
+    padding: 0rem 0;
+    background-color: #fff;
+}
+
+#colorlogo {
+    width: 160px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.desk-header {
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: #fff;
+    padding: 1rem 0;
+
+}
+
+.desk-contact ul {
+    display: flex;
+    gap: 6rem;
+}
+
+ul li {
+    list-style-type: none;
+    margin-top: 0.5rem;
+
+}
+
+.desk-address,
+.desk-email,
+.desk-ph {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.desk-contact p {
+    font-size: 14px;
+    color: black;
+}
+
+.desk-contact li {
+    font-size: 12px;
+}
+.desk-content p{
+    color: black;
+}
+.content-desk  h1{
+    color: black;
+}
+.desk-hero-section-1 {
+    background-image: url('../assets/DesktopBG.webp');
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.desk-overlay-1 {
+    background-color: rgba(90, 127, 237, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.desk-content-1{
+    color: white;
+    text-align: center;
+}
+
+.desk-content h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.desk-content-1 p {
+    font-size: 1rem;
+    margin-top: 10px;
+    color: #fff;
+}
+
+.desk-bar {
+
+    height: 6px;
+    background: rgb(215, 230, 245);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.7rem;
+    width: 150%;
+}
+
+.desk-fill {
+    height: 100%;
+    background: #022f7e;
+
+
+}
+
+.desk-menu-container {
+    width: 320px;
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 5rem;
+}
+
+.desk-menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.desk-menu-item:hover {
+    background-image: linear-gradient(to right, #022f7e 5%, #007bff 60%);
+
+}
+
+.desk-menu-item:last-child {
+    border-bottom: none;
+}
+
+.desk-menu-item span {
+    font-size: 1rem;
+    color: #333;
+    font-weight: bold;
+}
+
+.desk-menu-item>span:hover {
+    color: #fff;
+
+}
+
+.desk-menu-item.active {
+    /* background-image: linear-gradient(to right #022f7e, #007bff); */
+    background-image: linear-gradient(to right, #022f7e 5%, #007bff 60%);
+    color: white;
+}
+
+.desk-menu-item.active span {
+    color: white;
+}
+
+.desk-menu-item .arrow {
+    font-size: 1.2rem;
+    color: inherit;
+}
+
+.desk-contact-card {
+    width: 300px;
+    background: #022f7e;
+    border-radius: 8px;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    margin-top: 5rem;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.call-desk-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    position: relative;
+    animation: pulseIn 1.5s infinite;
+  
+  
+  }
+  
+  .call-desk-i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    color: #3178f2;
+    background-color: white;
+    padding: 0.5rem;
+    border-radius: 50%;
+  
+  }
+
+.desk-contact-card h2 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.desk-contact-card p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.desk-contact-card .phone-number {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#desk-leftimg {
+    width: 750px;
+    height: 550px;
+
+}
+
+.desk-content-lists {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 7rem;
+    padding: 0 10rem;
+}
+
+#desk-para {
+    max-width: 850px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+}
+
+.desk-content-enterprise {
+    padding: 2rem;
+}
+
+.desk-content-enterprise h1 {
+    color: black;
+}
+
+.desk-correct-lists {
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+
+.desk-correct-lists i {
+    margin-right: 10px;
+}
+
+.desk-workus {
+    margin-top: 2rem;
+    display: flex;
+    gap: 15rem;
+    margin-left: 2.3rem;
+    white-space: nowrap;
+    margin-bottom: 4rem;
+}
+
+.desk-workus p {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.desk-left-workus,.desk-right-workus{
+    flex:1;
+}
+.desk-left-workus p , .desk-right-workus p{
+ margin-top: 1rem;
+}
+.desk-work-withus h1 {
+    margin-left: 2rem;
+}
+
+
+@keyframes pulseInn {
+    0% {
+        transform: scale(0.8);
+        opacity: 1;
+        background-color: rgb(148, 146, 146);
+
+    }
+
+    50% {
+        transform: scale(1.2);
+        opacity: 0.6;
+
+    }
+
+    100% {
+        transform: scale(1.4);
+        opacity: 1;
+
+    }
+}
+
+.desk-get-in-touch {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url('../assets/queryBG.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 5rem 0rem;
+    margin-bottom: -2rem;
+}
+
+.desk-left-touch-content p,
+h1 {
+    color: #fff;
+}
+
+.desk-right-touch-content button {
+    padding: 1rem 2.5rem;
+    border-radius: 2rem;
+    border: none;
+    box-shadow: 0 12px 18px rgba(0, 0, 0, 0.2);
+    background-image: linear-gradient(to right, #022f7e 5%, #007bff 60%);
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.desk-right-touch-content button:hover {
+    background-image: linear-gradient(to top right, #007bff 20%, #022f7e 60%);
+}
+
+
+
+
+
+@media (max-width: 1200px) {
+    .desk-content-lists {
+        flex-direction: column;
+        padding: 0 2rem;
+    }
+
+
+    .desk-workus {
+        flex-direction: column;
+        gap: 2rem;
+        margin-left: 0;
+    }
+
+    .desk-workus p {
+        font-size: 12px;
+        margin-bottom: 1.5rem;
+    }
+
+    .desk-bar {
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .desk-header {
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1rem;
+        display: none;
+    }
+
+    #desk-leftimg {
+        width: 100%;
+        height: auto;
+
+    }
+
+
+    .desk-contact ul {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .desk-container {
+        padding: 1rem;
+    }
+
+    .desk-menu-container {
+        width: 100%;
+    }
+
+    .desk-contact-card {
+        width: 100%;
+        margin-top: 2rem;
+        padding: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .desk-get-in-touch {
+        flex-direction: column;
+        padding: 2rem 1rem;
+    }
+
+    .desk-left-touch-content p,
+    .desk-left-touch-content h1 {
+        text-align: center;
+    }
+
+    .desk-right-touch-content button {
+        width: 100%;
+        margin-top: 1rem;
+        white-space: nowrap;
+
+
+    }
+
+}
+
+
+@media (max-width: 480px) {
+    .desk-hero-section-1{
+        height: 30vh;
+    }
+
+    .desk-content h1 {
+        font-size: 1.5rem;
+    }
+
+    .desk-content p {
+        font-size: 0.9rem;
+    }
+
+    .desk-content-lists {
+        padding: 0 1rem;
+    }
+
+    .desk-workus p {
+        font-size: 10px;
+    }
+
+    .desk-menu-container {
+        font-size: 14px;
+    }
+
+    .desk-contact-card {
+        padding: 1rem;
+        gap: 1rem;
+    }
+
+    .desk-correct-lists p {
+        font-size: 12px;
+    }
+
+    .desk-correct-lists i {
+        font-size: 12px;
+    }
+
+    .desk-right-touch-content button {
+        padding: 0.8rem 2rem;
+        font-size: 14px;
+    }
+}
+.desk-nav-container {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}

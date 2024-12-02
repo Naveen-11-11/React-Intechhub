@@ -1,0 +1,60 @@
+
+.main-image {
+    width: 100%;
+    padding: 1rem 2rem;
+    background-color: darkblue;
+  }
+  
+  .main-image ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px; 
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+
+  .main-image ul li {
+    width: 100px;
+    height: 100px; 
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    cursor: pointer;
+  
+  }
+  
+  .main-image ul li img {
+    width: 50%;
+    height: 50%;
+    object-fit: cover; 
+    filter: brightness(0%) invert(1);
+    transition: filter 0.5s ease;
+  }
+  
+  
+  
+  .main-image span {
+    position: absolute;
+    width: 100%; 
+    height: 100%;
+    top: 100%;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: top 0.5s ease;
+  }
+  
+  .main-image ul li:hover span {
+    top: 0; 
+  }
+  
+  .main-image ul li:hover span img {
+    filter: grayscale(0%); 
+  }
+  

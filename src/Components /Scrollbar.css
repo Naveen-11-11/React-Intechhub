@@ -1,0 +1,36 @@
+
+.scrolling-icons-container {
+    overflow: hidden;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    padding: 1rem 0;
+    background-color: #f8f8f8; 
+  }
+  
+
+  .scrolling-icons {
+    display: flex;
+    gap: 20rem;
+    animation: scroll-left 800s linear infinite;
+  }
+  
+
+  .scrolling-icons img {
+    height: 80px; 
+    width: auto;  
+    transition: transform 0.8s;
+  }
+  
+  
+  
+ 
+  @keyframes scroll-left {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  

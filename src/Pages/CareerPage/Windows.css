@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.windows-container {
+    padding: 0rem 0;
+    background-color: #fff;
+}
+
+#colorlogo {
+    width: 160px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.windows-header {
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: #fff;
+    padding: 1rem 0;
+
+}
+
+.windows-contact ul {
+    display: flex;
+    gap: 6rem;
+}
+
+ul li {
+    list-style-type: none;
+    margin-top: 0.5rem;
+
+}
+
+.windows-address,
+.windows-email,
+.windows-ph {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.windows-contact p {
+    font-size: 14px;
+    color: black;
+}
+
+.windows-contact li {
+    font-size: 12px;
+}
+
+.windows-nav-container {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.windows-hero-section-1 {
+    background-image: url('../../assets/windowsBG.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.windows-overlay-1 {
+    background-color: rgba(90, 127, 237, 0.5);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.windows-content-1 {
+    color: white;
+    text-align: center;
+}
+
+.windows-content-1 h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+}
+
+.windows-content-1 p {
+    color: white;
+}
+
+
+
+
+
+.windows-contain {
+    margin-top: 8rem;
+    display: flex;
+    padding-left: 10rem;
+    
+}
+
+.windows-img  {
+    width: 350px;
+    height:400px;
+}
+
+.windows-contents {
+    padding: 2rem 0 0 5rem;
+}
+
+.windows-contents p {
+    padding-bottom: 2rem;
+    font-size: 0.9rem;
+    color: black;
+}
+
+.windows-contents i {
+    padding-right: 1rem;
+}
+
+.windows-contents p a {
+    text-decoration: none;
+    color: #0853e9;
+}
+
+
+
+
+
+
+.windows-development{
+    padding-left:12rem;
+    cursor: pointer;
+    max-width: 1000px;
+  }
+  
+  .windows-development h1 {
+    color: black;
+  }
+  .windows-development-contents{
+    margin: 2rem 0rem;
+    border: 1px solid #ddd;
+  }
+  
+
+
+
+
+
+@media (max-width: 768px) {
+    .windows-header {
+      display: none;
+    }
+  
+    .windows-hero-section-1 {
+      height: 30vh;
+      background-size: cover;
+      background-position: center;
+    }
+  
+    .windows-content-1 h1 {
+      font-size: 2rem;
+    }
+  
+    .windows-content-1 p {
+      font-size: 0.9rem;
+    }
+  
+    .windows-contain {
+      margin-top: 2rem;
+      padding: 0;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .windows-img img {
+      max-width: 100%;
+      height: auto;
+    }
+  
+    .windows-contents {
+      padding: 1rem;
+      margin-bottom: 4rem;
+    }
+  
+    .windows-contents p {
+      font-size: 0.8rem;
+      padding-bottom: 1rem;
+    }
+  
+    .windows-development {
+      padding: 0 1rem;
+      margin-bottom: 4rem;
+    }
+  
+    .windows-development h1 {
+      font-size: 1.5rem;
+      text-align: left;
+    }
+  
+    .windows-development p {
+      font-size: 0.9rem;
+      padding: 0.8rem;
+    }
+  
+    .windows-development-contents {
+      margin: 1rem 0;
+    }
+  }

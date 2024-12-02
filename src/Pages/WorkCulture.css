@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .culture-container {
+    padding: 0rem 0;
+    background-color: #fff;
+  }
+  
+  #colorlogo {
+    width: 160px;
+    height: 40px;
+    cursor: pointer;
+  }
+  
+  .culture-header {
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: #fff;
+    padding: 1rem 0;
+  
+  }
+  
+  .culture-contact ul {
+    display: flex;
+    gap: 6rem;
+  }
+  
+  ul li {
+    list-style-type: none;
+    margin-top: 0.5rem;
+  
+  }
+  
+  .culture-address,
+  .culture-email,
+  .culture-ph {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .culture-contact p {
+    font-size: 14px;
+    color: black;
+  }
+  
+  .culture-contact li {
+    font-size: 12px;
+  }
+  .culture-nav-container {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+  }
+  .culture-hero-section-1 {
+    background-image: url('../assets/WorkCultureBG.png');
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .culture-overlay-1 {
+    /* background-color: rgba(90, 127, 237, 0.5); */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  .culture-content-1 {
+    color: white;
+    text-align: center;
+  }
+  
+  .culture-content-1 h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  .culture-content-1 p {
+    color: white;
+  }
+
+
+
+
+  .culture-lists-container{
+    display: flex;
+    justify-content: center;
+    padding: 0 3rem; 
+    margin-top: 6rem;
+    margin-bottom: 4rem;
+  }
+  .h1{
+    color: rgb(27, 104, 248);
+  }
+ .culture-lists{
+  max-width: 1100px;
+ }
+ .culture-lists p{
+    margin-top: 1.5rem;
+    font-size: 0.9rem;
+    line-height: 1.5;
+ }
+ .culture-item{
+    margin-bottom: 3rem;
+ }
+ .cul-content{
+    display: flex;
+    align-items: center;
+   
+ }
+ .contents-culture{
+    margin-left: 6rem;
+ }
+
+
+
+
+ .culture-quote-container {
+    position: relative; 
+    padding:4rem 0;
+    background: linear-gradient(to right, #032a79, #0853e9);
+ }
+  
+  .culture-quote {
+    font-size: 2rem;
+    color: white;
+    line-height: 1.6;
+    text-align: center;
+   
+  }
+  
+  .culture-author {
+    font-size: 1.5rem;
+    color: white;
+    position: absolute;
+    right: 15rem; 
+    bottom: 15%; 
+    font-weight: bolder;
+  }
+  
+  
+  /* Responsive Styles for Small Screens */
+@media (max-width: 768px) {
+    .culture-header {
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+      padding: 1rem;
+      display: none;
+    }
+  
+    .culture-contact ul {
+      flex-direction: column;
+      gap: 1rem;
+    }
+  
+    ul li {
+      margin-top: 0.2rem;
+      font-size: 0.9rem;
+    }
+  
+    .culture-hero-section-1 {
+      height: 30vh; 
+      background-size: cover;
+      background-position: center;
+    }
+  
+    .culture-content-1 h1 {
+      font-size: 2rem;
+    }
+  
+    .culture-content-1 p {
+      font-size: 0.9rem;
+    }
+  
+    .culture-lists-container {
+      padding: 0 1.5rem; 
+      margin-top: 3rem;
+      margin-bottom: 2rem;
+    }
+  
+    .culture-lists {
+      max-width: 100%; 
+    }
+  
+    .cul-content {
+      flex-direction: column; 
+      align-items: flex-start;
+    
+    }
+  
+    .contents-culture,
+    .contents-culture-1 {
+      margin: 2rem 0;
+    }
+  
+    .cul-image-content img,
+    .cul-image-content-1 img {
+      max-width: 100%; 
+      height: auto; 
+    }
+  
+    .culture-quote-container {
+      padding: 2rem 1rem;
+    }
+  
+    .culture-quote {
+      font-size: 1.5rem; 
+      text-align: center;
+    }
+  
+    .culture-author {
+      font-size: 1rem;
+      position: static; 
+      margin-top: 1rem;
+      text-align: center;
+      display: block;
+    }
+
+  }
+  
+
+
+
+
+
+
+
+
+
+
+  

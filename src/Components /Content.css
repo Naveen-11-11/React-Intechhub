@@ -1,0 +1,121 @@
+
+.main-container {
+  display: flex;
+  justify-content: flex-end;
+  padding: 3rem;
+  box-sizing: border-box;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.line-container-1 {
+  position: absolute;
+  right: 29rem;
+  display: flex;
+  align-items: center;
+}
+
+#line-one {
+  width: 15px;
+  height: 4px;
+  background-color: tomato;
+  margin-right: 5px;
+}
+
+#line-two {
+  width: 45px;
+  height: 4px;
+  background-color: tomato;
+  margin-right: 10px;
+}
+
+.line-container-1 p {
+  color: rgba(0, 47, 255, 0.753);
+  font-size: 0.8rem;
+}
+
+.content {
+  max-width: 600px;
+  margin-right: 2rem;
+  padding: 2rem;
+}
+
+.content h2 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.intro-text {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 2rem;
+  line-height: 1.5;
+}
+
+
+.features {
+  margin-top: 1.5rem;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 15px;
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#iconImages{
+  width: 50px;
+  height: 50px;
+  margin-right: 1rem;
+}
+
+.feature-text h3 {
+  font-size: 18px;
+  color: #333;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+.feature-text p {
+  font-size: 14px;
+  color: #555;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .main-container {
+    justify-content: center;
+    padding: 1rem ;
+   
+  }
+ .line-container-1 {
+  position: absolute;
+  right: 10rem;
+}
+ 
+  .content {
+      max-width: 90%;
+      text-align: center;
+      margin-right: 0;
+  }
+
+  .content h2 {
+      font-size: 24px;
+  }
+
+  .intro-text,
+  .feature-text p {
+      font-size: 14px;
+  }
+}

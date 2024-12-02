@@ -1,0 +1,187 @@
+.body {
+  margin-top: 10rem;
+  padding: 5rem 10rem;
+  background-color: rgb(231, 231, 250);
+}
+
+.main {
+  display: flex;
+  gap: 18rem;
+}
+
+h4 {
+  color: rgb(192, 19, 255)
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.grid {
+  margin: 4rem 0;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+ 
+}
+
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.service-card {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 2.5rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.service-icon {
+  font-size: 40px;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.service-icon img {
+  height: 60px;
+  width: 60px;
+}
+
+.service-title {
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #333;
+}
+
+.get-started-button {
+  margin-top: 20px;
+  padding:18px 40px;
+  background:  linear-gradient(to left , #f27c1e , #dd4c23 );
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+#button:hover{
+  background:linear-gradient(to top right, #f27c1e 30% ,#dd4c23 60%   );
+ 
+}
+
+
+.service-card:hover .service-title {
+  color: white;
+}
+
+.service-card:hover .service-icon img {
+  filter: brightness(0) invert(1);
+}
+
+#grid1:hover {
+  background-color: tomato;
+  color: white;
+}
+
+#grid2:hover {
+  background-color: rgb(255, 0, 208);
+  color: white;
+}
+
+#grid3:hover {
+  background-color: rgb(0, 247, 255);
+  color: white;
+}
+
+#grid4:hover {
+  background-color: rgb(41, 182, 109);
+  color: white;
+}
+
+#grid5:hover {
+  background-color: rgb(51, 0, 255);
+  color: white;
+}
+
+#grid6:hover {
+  background-color: rgb(26, 114, 238);
+  color: white;
+}
+
+#grid7:hover {
+  background-color: rgb(71, 255, 169);
+  color: white;
+}
+
+#grid8:hover {
+  background-color: rgb(98, 184, 255);
+  color: white;
+}
+
+
+@media (max-width: 800px) {
+  .main {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .service-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  .main {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .service-grid {
+    grid-template-columns: 1fr;
+  }
+
+  h2 {
+    font-size: 2rem;
+    text-align: center;
+    padding: 0.5rem 2rem;
+
+  }
+
+  h4 {
+    text-align: center;
+    color: purple;
+  }
+
+  .btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+
+  .service-title {
+    font-size: 14px;
+  }
+
+  .get-started-button {
+    font-size: 14px;
+    padding: 15px 25px;
+  }
+}
